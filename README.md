@@ -2,9 +2,34 @@
 
 This repository seeks to document proper names in various Bible translations aligned by verse reference.
 
+## What this data is
+
+```
+ref         text      macula_lemma  macula_eng  hcb        rso94       sruv06    tbi       lsg10      rv09      tpb08     bbc
+----------  --------  ------------  ----------  ---------  ----------  --------  --------  ---------  --------  --------  --------
+LUK 1:3!11  Θεόφιλε   Θεόφιλος      Theophilus  Tiyofilus  Феофил      Theofilo  Teofilus  Théophile  Teófilo
+LUK 1:5!5   Ἡρῴδου    Ἡρῴδης        Herod       Hiridus    Ирода       herode    herodes   Hérode     Herodes   herot     Herodes
+LUK 1:5!8   Ἰουδαίας  Ἰουδαία       Judea       Yahudiya   Иудейского  Yudea     yudea     Judée      Judea     judia     Judea
+LUK 1:5!12  Ζαχαρίας  Ζαχαρίας      Zechariah   Zakariya   Захария     Zakaria   zakharia  Zacharie   Zacarías  sekaraia  Sakarias
+LUK 1:5!15  Ἀβιά      Ἀβιά          Abijah      Abiya      Авиевой     Abiya     abia      Abia       Abías     abiya     Abia
+```
+
+## Languages currently included:
+
+ - **BBC**: Toba
+ - **CU2010S**: Chinese Simplified
+ - **CU2010T**: Chinese Traditional
+ - **HCB**: Hausa
+ - **LSG10**: French
+ - **RSO94**:  Russian
+ - **RV09**: Spanish
+ - **SRUV06**: Swahili
+ - **TBI**: Indonesian
+ - **TPB08**: Tok Pisin
+
 ## Why this is useful
 
-I've always imagined that it could be hugely helpful to have this large multilingual Biblical names database.  It would help machine translation, for sure.  But it could also be used as an enabler in starting up new projects.  Imagine the dataset was online and integrated with our BT tools, and we could offer new teams an easy way to get started with their names list for their translation brief.  Or, perhaps we could dynamically recognize how teams are translating the names ("Hey, I think you're reusing the names from the TBI, can I help?") and assist them with populate the names in their KBT list. - MM
+...
 
 # Data Sources
 
