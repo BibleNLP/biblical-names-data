@@ -1,6 +1,10 @@
 # Introduction
 
-...
+This repository seeks to document proper names in various Bible translations aligned by verse reference.
+
+## Why this is useful
+
+I've always imagined that it could be hugely helpful to have this large multilingual Biblical names database.  It would help machine translation, for sure.  But it could also be used as an enabler in starting up new projects.  Imagine the dataset was online and integrated with our BT tools, and we could offer new teams an easy way to get started with their names list for their translation brief.  Or, perhaps we could dynamically recognize how teams are translating the names ("Hey, I think you're reusing the names from the TBI, can I help?") and assist them with populate the names in their KBT list. - MM
 
 # Data Sources
 
@@ -29,9 +33,12 @@ SELECT
 FROM
     names
 WHERE
-    ref LIKE "LUK%"
+    ref LIKE "LUK%" AND
+    tbi <> ""
 GROUP BY
     tbi
 ORDER BY
     tbi;
 ```
+
+**Note**: If you use a filter like `tbi <> ""`, it may be wise to also check what names map to an empty slot for tbi. The reason the filter is there is that the `GROUP_CONCAT` function can produce a long line which makes the text much less readable on the command line.
