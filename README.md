@@ -23,11 +23,16 @@ This will load the tsv `file` into a `names` table. Now you can select the colum
 SELECT
     tbi,
     GROUP_CONCAT(DISTINCT bbc) FILTER (WHERE bbc <> "") AS bbc,
-    GROUP_CONCAT(DISTINCT ref) AS refs
+    GROUP_CONCAT(DISTINCT eng) FILTER (WHERE eng <> "") AS eng,
+    COUNT(ref) AS refs
+    -- GROUP_CONCAT(DISTINCT ref) AS refs
 FROM
     names
+WHERE
+    ref LIKE "LUK%" AND
+    tbi <> ""
 GROUP BY
     tbi
-HAVING
-    ref LIKE "LUK%";
+ORDER BY
+    tbi;
 ```
