@@ -14,16 +14,18 @@ This repository seeks to document proper names in various Bible translations ali
 
 ## Languages currently included:
 
- - **BBC**: Toba
- - **CU2010S**: Chinese Simplified
- - **CU2010T**: Chinese Traditional
- - **HCB**: Hausa
- - **LSG10**: French
- - **RSO94**:  Russian
- - **RV09**: Spanish
- - **SRUV06**: Swahili
- - **TBI**: Indonesian
- - **TPB08**: Tok Pisin
+- **ARBNAV**: Arabic (NAV)
+- **BBC**: Toba
+- **CU2010S**: Chinese Simplified
+- **CU2010T**: Chinese Traditional
+- **ESVUK16**: English
+- **HCB**: Hausa
+- **LSG10**: French
+- **RSO94**: Russian
+- **RV09**: Spanish
+- **SRUV06**: Swahili
+- **TBI**: Indonesian
+- **TPB08**: Tok Pisin
 
 ## Why this is useful
 
@@ -31,7 +33,7 @@ This repository seeks to document proper names in various Bible translations ali
 
 # Data Sources
 
-This data uses Macula [Greek](https://github.com/Clear-Bible/macula-greek/) and [Hebrew](https://github.com/Clear-Bible/macula-hebrew/) combined with alignments provided by UBS and generated using [eflomal](https://github.com/robertostling/eflomal). It pulls together these sources to produce a list of names in the Bible to support Bible translation work.
+This data uses Macula [Greek](https://github.com/Clear-Bible/macula-greek/) and [Hebrew](https://github.com/Clear-Bible/macula-hebrew/) combined with alignments provided by UBS and generated using [eflomal](https://github.com/robertostling/eflomal). Note that stopwords are used to filter out poor alignments. The `names.tsv` file pulls together these sources to produce a list of names in the Bible to support Bible translation work.
 
 # Usage
 
