@@ -46,7 +46,13 @@ For example, if you wanted the TBI-BBC mappings for Luke, open `sqlite3`:
 .import names.tsv names
 ```
 
-This will load the tsv `file` into a `names` table. Now you can select the columns you want:
+This will load the tsv `file` into a `names` table. To get a table like the one above in order to explore the data, you could try something like:
+
+```sql
+SELECT * FROM names WHERE ref LIKE "LUK 1:%";
+```
+
+A more interesting/useful query would be one that groups equivalents across a language pair. For example, if we wanted to map TBI proper nouns to BBC translations and count the references, we could do something like this (I've included a commented column that will list every verse in which the name appears):
 
 ```sql
 SELECT
