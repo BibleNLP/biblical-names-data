@@ -4,13 +4,13 @@ This repository seeks to document proper names in various Bible translations ali
 
 ## What this data is
 
-|    ref     |   text   | macula_lemma | macula_eng |    hcb    | cu2010s | cu2010t |   rso94    |  sruv06  |   tbi    |   lsg10   |   rv09   |  tpb08   |   bbc    |
-|------------|----------|--------------|------------|-----------|---------|---------|------------|----------|----------|-----------|----------|----------|----------|
-| LUK 1:3!11 | Θεόφιλε  | Θεόφιλος     | Theophilus | Tiyofilus | 提阿非罗    | 提阿非罗    | Феофил     | Theofilo | Teofilus | Théophile | Teófilo  |          |          |
-| LUK 1:5!5  | Ἡρῴδου   | Ἡρῴδης       | Herod      | Hiridus   | 希律      | 希律      | Ирода      | herode   | herodes  | Hérode    | Herodes  | herot    | Herodes  |
-| LUK 1:5!8  | Ἰουδαίας | Ἰουδαία      | Judea      | Yahudiya  | 犹太      | 猶太      | Иудейского | Yudea    | yudea    | Judée     | Judea    | judia    | Judea    |
-| LUK 1:5!12 | Ζαχαρίας | Ζαχαρίας     | Zechariah  | Zakariya  | 撒迦利亚    | 撒迦利亞    | Захария    | Zakaria  | zakharia | Zacharie  | Zacarías | sekaraia | Sakarias |
-| LUK 1:5!15 | Ἀβιά     | Ἀβιά         | Abijah     | Abiya     | 亚比雅     | 亞比雅     | Авиевой    | Abiya    | abia     | Abia      | Abías    | abiya    | Abia     |
+| ref        | text     | macula_lemma | macula_eng | hcb       | cu2010s  | cu2010t  | rso94      | sruv06   | tbi      | lsg10     | rv09     | tpb08    | bbc      |
+| ---------- | -------- | ------------ | ---------- | --------- | -------- | -------- | ---------- | -------- | -------- | --------- | -------- | -------- | -------- |
+| LUK 1:3!11 | Θεόφιλε  | Θεόφιλος     | Theophilus | Tiyofilus | 提阿非罗 | 提阿非罗 | Феофил     | Theofilo | Teofilus | Théophile | Teófilo  |          |          |
+| LUK 1:5!5  | Ἡρῴδου   | Ἡρῴδης       | Herod      | Hiridus   | 希律     | 希律     | Ирода      | herode   | herodes  | Hérode    | Herodes  | herot    | Herodes  |
+| LUK 1:5!8  | Ἰουδαίας | Ἰουδαία      | Judea      | Yahudiya  | 犹太     | 猶太     | Иудейского | Yudea    | yudea    | Judée     | Judea    | judia    | Judea    |
+| LUK 1:5!12 | Ζαχαρίας | Ζαχαρίας     | Zechariah  | Zakariya  | 撒迦利亚 | 撒迦利亞 | Захария    | Zakaria  | zakharia | Zacharie  | Zacarías | sekaraia | Sakarias |
+| LUK 1:5!15 | Ἀβιά     | Ἀβιά         | Abijah     | Abiya     | 亚比雅   | 亞比雅   | Авиевой    | Abiya    | abia     | Abia      | Abías    | abiya    | Abia     |
 
 ## Languages currently included:
 
@@ -25,6 +25,7 @@ This repository seeks to document proper names in various Bible translations ali
 - **RV09**: Spanish
 - **SRUV06**: Swahili
 - **TBI**: Indonesian
+- **TLGULB**: Tagalog
 - **TPB08**: Tok Pisin
 
 ## Why this is useful
