@@ -38,6 +38,28 @@ This data uses Macula [Greek](https://github.com/Clear-Bible/macula-greek/) and 
 
 # Usage
 
+## Extraction Helper
+
+The `scripts/extract_name_pairs.py` script exports columns of name pairs, dropping any rows with empty values.
+
+```
+python scripts/extract_name_pairs.py [-h] [-l] [column_one] [column_two]
+
+Extract name pairs from a TSV file
+
+positional arguments:
+  column_one  Name of the first column to extract
+  column_two  Name of the second column to extract
+
+options:
+  -h, --help  show this help message and exit
+  -l, --list  List available columns
+```
+
+**Note**: You are expected to run python from the project root so that the relative path to `./names.tsv` is valid.
+
+## Sqlite
+
 Using sqlite, you can create a list of mappings from one language to another for a given langauge pair.
 
 For example, if you wanted the TBI-BBC mappings for Luke, open `sqlite3`:
