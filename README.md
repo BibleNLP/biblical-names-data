@@ -25,7 +25,7 @@ This repository seeks to document proper names in various Bible translations ali
 - **RV09**: Spanish
 - **SRUV06**: Swahili
 - **TBI**: Indonesian
-- **TLGULB**: Tagalog
+- **TGLULB**: Tagalog
 - **TPB08**: Tok Pisin
 
 ## Why this is useful
