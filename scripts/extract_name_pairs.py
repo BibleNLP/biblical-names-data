@@ -5,8 +5,8 @@ def save_column_to_csv(df, column, filename):
     with open(filename, 'w', encoding='utf-8') as f:
         f.write(f"{column}\n")  # Write the header
         for value in df[column]:
-            if value in [None, ""]:
-                f.write("\n")  # Write an empty line for None or empty string
+            if pd.isna(value) or value == "":
+                f.write("\n")  # Write an empty line for NaN, None, or empty string
             else:
                 f.write(f"{value}\n")  # Write the actual value
 
