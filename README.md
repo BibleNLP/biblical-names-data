@@ -16,9 +16,11 @@ This repository seeks to document proper names in various Bible translations ali
 
 - **ARBNAV**: Arabic (NAV)
 - **BBC**: Toba
+- **BSB**: English
 - **CU2010S**: Chinese Simplified
 - **CU2010T**: Chinese Traditional
 - **ESVUK16**: English
+- **ENGULB**: English
 - **HCB**: Hausa
 - **LSG10**: French
 - **RSO94**: Russian
